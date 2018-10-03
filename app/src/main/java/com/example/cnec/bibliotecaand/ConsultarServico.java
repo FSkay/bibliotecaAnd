@@ -7,5 +7,31 @@ import android.os.AsyncTask;
  */
 
 public class ConsultarServico extends AsyncTask {
+    @Override
+    protected Object doInBackground(Object[] objects){
+        return null;
+    }
+    @Override
+    protected void onPostExecute(Object o){
+        super.onPostExecute(o);
+    }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @Override
+    protected void onPostExecute(Object o){
+        Log.d
+    }
 }

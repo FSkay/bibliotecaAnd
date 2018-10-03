@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void apertar (View v){
+        ConsultarServico c = new ConsultarServico();
+        c.execute();
 
     }
 }
